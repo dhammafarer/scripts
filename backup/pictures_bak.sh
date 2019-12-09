@@ -11,7 +11,8 @@ SRC="/home/pawel/Pictures/"
 #Exclude the following files:
 EXCL="/home/pawel/Dropbox/Scripts/backup/home_ignorelist"
 #The target directory:
-TRG="/home/pawel/Desktop/usb/backup/Pictures/"
+#TRG="/home/pawel/Desktop/usb/backup/Pictures/"
+TRG="/mnt/nas/pawel-backup/Pictures/"
 #The symlink directory of the last backup
 LAST=$TRG"last"
 #The location of log output file
