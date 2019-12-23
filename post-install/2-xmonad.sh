@@ -7,6 +7,10 @@ echo
 PKGS=(
         'xmonad'
         'xmonad-contrib'
+        'xmobar'
+        'stalonetray'
+        'lightdm'
+        'lightdm-gtk-greeter'
 )
 
 for PKG in "${PKGS[@]}"; do

@@ -9,7 +9,7 @@ PKGS=(
     # TERMINAL UTILITIES --------------------------------------------------
 
     'curl'
-a   'elinks'
+    'elinks'
     'feh'
     'atool'
     'htop'
