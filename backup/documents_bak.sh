@@ -12,7 +12,7 @@ SRC="/home/pawel/Documents/"
 EXCL="/home/pawel/Dropbox/Scripts/backup/home_ignorelist"
 #The target directory:
 #TRG="/home/pawel/Desktop/usb/backup/pc/Documents/"
-TRG="/mnt/nas/pawel-backup/Documents/"
+TRG="/mnt/smb/pawel-backup/Documents/"
 #The symlink directory of the last backup
 LAST=$TRG"last"
 #The location of log output file
