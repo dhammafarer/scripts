@@ -23,6 +23,14 @@ for PKG in "${PKGS[@]}"; do
     sudo pacman -S "$PKG" --noconfirm --needed
 done
 
+echo "SETTING UP FONTS"
+sudo ln -s /etc/fonts/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
+sudo ln -s /etc/fonts/conf.avail/10-sub-pixel-rgb.conf /etc/fonts/conf.d
+sudo ln -s /etc/fonts/conf.avail/11-lcdfilter-default.conf /etc/fonts/conf.d
+
+sudo cp ./files/etc-fonts-local.conf /etc/fonts/local.conf
+sudo vim /etc/profile.d/freetype2.sh
+
 echo
 echo "Done!"
 echo

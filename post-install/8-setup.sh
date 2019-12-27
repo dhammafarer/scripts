@@ -6,6 +6,21 @@ echo "FINAL SETUP AND CONFIGURATION"
 # ------------------------------------------------------------------------
 
 echo
+echo "CONFIGURING GIT"
+
+git config --global user.name "Pawel Lisewski"
+git config --global user.email "pawel.lisewski@gmail.com"
+
+# ------------------------------------------------------------------------
+
+echo
+echo "INSTALLING OH-MY-ZSH"
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# ------------------------------------------------------------------------
+
+echo
 
 echo
 echo "Increasing file watcher count"

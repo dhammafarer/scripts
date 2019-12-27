@@ -32,7 +32,7 @@ PKGS=(
 
 
 for PKG in "${PKGS[@]}"; do
-    yay -S -i $PKG
+    yay -S $PKG
 done
 
 echo
